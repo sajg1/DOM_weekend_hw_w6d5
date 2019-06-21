@@ -37,20 +37,20 @@ select {
 
 label, input {
   display: block;
-
   color: #C41B1B;
 }
 
 #form-title {
-  color: white;
+  color: #BABABA;
   margin-bottom: 50px;
 
   /* padding-bottom: :50px; */
 }
 
 #list-title {
-  color: white;
+  color: #BABABA;
   margin: 50px 0px 50px 0px;
+
 
 }
 
