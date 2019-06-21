@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0:
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
-  background-color: black
 
 }
 
@@ -8,17 +12,63 @@ header {
   height: 200px;
   background-image: url("./images/1907576-tekken_logo1.png");
   background-repeat: no-repeat;
-  background-position:center  ;
+  background-position:left ;
+  z-index: 1;
+  opacity: 0.4;
 }
 
 form {
-  color: #DC2727;
+  color: black;
 }
 
 #new-character {
-  color: #DC2727;
+  color: white;
+  margin-bottom: 50px;
+}
+
+input {
+  background-color: black;
+}
+
+select {
+  background-color: black;
+  color: red;
 }
 
 label, input {
   display: block;
+
+  color: #C41B1B;
+}
+
+#form-title {
+  color: white;
+  margin-bottom: 50px;
+
+  /* padding-bottom: :50px; */
+}
+
+#list-title {
+  color: white;
+  margin: 50px 0px 50px 0px;
+
+}
+
+
+img.bg {
+  z-index: -1;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
 }
