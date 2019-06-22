@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const list = document.querySelector('ul');
     list.appendChild(newItem);
 
+
+
     const resetFormSubmit = document.querySelector('#new-character-form')
     resetFormSubmit.reset();
   };
@@ -31,3 +33,34 @@ document.addEventListener('DOMContentLoaded', () => {
   const deleteButton = document.querySelector('#delete-all-items');
   deleteButton.addEventListener('click', handleDeleteButton)
 });
+
+// const createTekkenListCharacter = function (form) {
+//   const tekkenListCharacter = document.createElement('li');
+//   tekkenListCharacter.classList.add('tekken-list-character')
+//
+//   const firstName = document.createElement('h2');
+//   firstName.textContent = form.first_name.value;
+//   tekkenListCharacter.appendChild(firstName);
+//
+//   const lastName = document.createElement('h2');
+//   lastName.textContent = form.last_name.value;
+//   tekkenListCharacter.appendChild(lastName);
+//
+//   const fightingStyle = document.createElement('h3');
+//   fightingStyle.textContent = form.fighting_style.value;
+//   tekkenListCharacter.appendChild(fightingStyle);
+//
+//   const age = document.createElement('p');
+//   age.textContent = form.age.value;
+//   tekkenListCharacter.appendChild(age);
+//
+//   const continent = document.createElement('p');
+//   continent.textContent = form.continent.value;
+//   tekkenListCharacter.appendChild(continent);
+//
+//   return tekkenListCharacter;
+// }
+//
+//   const tekkenListCharacter = createTekkenListCharacter(event.target);
+//   const tekkenList = document.querySelector('ul');
+//   tekkenList.appendChild(tekkenListCharacter);
