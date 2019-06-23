@@ -49,6 +49,12 @@ label, input {
 
 }
 
+li {
+  margin: 30px;
+  list-style-type: none;
+
+}
+
 #form-title {
   color: #8B8C8C;
   margin-bottom: 50px;

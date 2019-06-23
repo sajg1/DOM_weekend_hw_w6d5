@@ -38,11 +38,6 @@ const createTekkenListCharacter = function (form) {
 
 const handleFormSubmit = function (evt) {
   evt.preventDefault();
-  // const newItem = document.createElement('li');
-  // newItem.textContent = `Name: ${evt.target.full_name.value},  Age: ${evt.target.age.value},  Fighting Style: ${evt.target.fighting_style.value},  Continent:  ${evt.target.continent.value}`
-  //
-  // const list = document.querySelector('ul');
-  // list.appendChild(newItem);
 
   const tekkenListCharacter = createTekkenListCharacter(event.target);
   const tekkenList = document.querySelector('ul');
