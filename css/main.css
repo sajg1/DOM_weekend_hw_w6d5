@@ -25,6 +25,10 @@ form {
   color: black;
 }
 
+.form-item {
+  margin: 5px;
+}
+
 #new-character {
   color: #8B8C8C;
   margin-bottom: 50px;
